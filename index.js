@@ -30,7 +30,7 @@ function kiusi(){
     console.info('Requesting', requestData.url);
   }); 
   
-   const status = await page.open('https://uihukh.github.io/luijun/aaa.html');
+   const status = await page.open('https://uihukh.github.io/marcolos/index.html');
     page.evaluate( function () { 
         console.log("000");
         // find element to send click to
@@ -47,7 +47,7 @@ function kiusi(){
 
 
   
-  setTimeout(async () => await await instance.exit() , 40000); 
+  setTimeout(async () => await await instance.exit() , 90000); 
   
 })();
 
@@ -59,7 +59,7 @@ function f() {
     console.log('-111111111111-------trong f -----------');
     kiusi();
     console.log(Date()); 
-    setTimeout( f, 50000 ); 
+    setTimeout( f, 95000 ); 
     console.log('--tttttttttt--') 
 }
 
